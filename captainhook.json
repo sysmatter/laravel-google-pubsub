@@ -1,0 +1,23 @@
+{
+    "commit-msg": {
+        "enabled": true,
+        "actions": []
+    },
+    "pre-commit": {
+        "enabled": true,
+        "actions": [
+            {
+                "action": "composer analyse"
+            },
+            {
+                "action": "composer pint"
+            },
+            {
+                "action": "composer test"
+            },
+            {
+                "action": "git add ."
+            }
+        ]
+    }
+}

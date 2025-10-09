@@ -1,0 +1,78 @@
+{
+    "name": "sysmatter/laravel-google-pubsub",
+    "description": "Google Cloud Pub/Sub for Laravel with full feature support",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/sysmatter/laravel-google-pubsub",
+    "keywords": [
+        "laravel",
+        "queue",
+        "pubsub",
+        "google",
+        "cloud",
+        "gcp"
+    ],
+    "authors": [
+        {
+            "name": "Shavonn Brown",
+            "email": "shavonn@sysmatter.com",
+            "role": "Developer"
+        }
+    ],
+    "scripts": {
+        "test": "pest",
+        "test-coverage": "pest --coverage",
+        "test-unit": "pest tests/Unit",
+        "test-feature": "pest tests/Feature",
+        "analyse": "php -d memory_limit=512M vendor/bin/phpstan analyse -c phpstan.neon --memory-limit=512M",
+        "analyse-baseline": "php -d memory_limit=512M vendor/bin/phpstan analyse -c phpstan.neon --generate-baseline --memory-limit=512M",
+        "pint": "vendor/bin/pint ./src ./tests"
+    },
+    "require": {
+        "php": "^8.4",
+        "ext-zlib": "*",
+        "google/cloud-pubsub": "^2.13",
+        "illuminate/console": "*",
+        "illuminate/queue": "*",
+        "illuminate/support": "*",
+        "opis/json-schema": "^2.4"
+    },
+    "require-dev": {
+        "larastan/larastan": "^3.0",
+        "laravel/pint": "^1.14",
+        "orchestra/testbench": "*",
+        "pestphp/pest": "^3.8",
+        "pestphp/pest-plugin-laravel": "^3.2",
+        "phpstan/extension-installer": "^1.3",
+        "phpstan/phpstan": "^2.1",
+        "phpstan/phpstan-phpunit": "^2.0",
+        "phpunit/phpunit": "^11.5",
+        "captainhook/captainhook": "^5.25",
+        "captainhook/plugin-composer": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "SysMatter\\GooglePubSub\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SysMatter\\GooglePubSub\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PubSubServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true,
+            "captainhook/plugin-composer": true
+        }
+    }
+}

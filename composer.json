@@ -63,7 +63,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "PubSubServiceProvider"
+                "SysMatter\\GooglePubSub\\PubSubServiceProvider"
             ]
         }
     },

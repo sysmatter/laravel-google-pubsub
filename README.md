@@ -43,7 +43,7 @@ pipelines.
 ## Requirements
 
 * PHP 8.4+
-* Laravel 12.0+
+* Laravel 11.0+
 * Google Cloud Pub/Sub PHP library
 
 ## Installation

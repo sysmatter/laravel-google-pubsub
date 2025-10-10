@@ -1,8 +1,8 @@
 # Laravel Google Pub/Sub
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sysmatter/laravel-google-pubsub.svg?style=flat-square)](https://packagist.org/packages/sysmatter/laravel-google-pubsub)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/sysmatter/laravel-google-pubsub/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/sysmatter/laravel-google-pubsub/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/sysmatter/laravel-google-pubsub/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/sysmatter/laravel-google-pubsub/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/sysmatter/laravel-google-pubsub/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/sysmatter/laravel-google-pubsub/actions?query=workflow%3Atests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/sysmatter/laravel-google-pubsub/code-style.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/sysmatter/laravel-google-pubsub/actions?query=workflow%3A"code+style"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/sysmatter/laravel-google-pubsub.svg?style=flat-square)](https://packagist.org/packages/sysmatter/laravel-google-pubsub)
 
 A comprehensive Google Cloud Pub/Sub integration for Laravel that goes beyond basic queue functionality. This package

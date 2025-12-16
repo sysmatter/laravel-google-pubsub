@@ -1,9 +1,4 @@
-# Laravel Google Pub/Sub
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/sysmatter/laravel-google-pubsub.svg?style=flat-square)](https://packagist.org/packages/sysmatter/laravel-google-pubsub)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/sysmatter/laravel-google-pubsub/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/sysmatter/laravel-google-pubsub/actions?query=workflow%3Atests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/sysmatter/laravel-google-pubsub/code-style.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/sysmatter/laravel-google-pubsub/actions?query=workflow%3A"code+style"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/sysmatter/laravel-google-pubsub.svg?style=flat-square)](https://packagist.org/packages/sysmatter/laravel-google-pubsub)
+# Laravel Google Pub/Sub Packaged Moved -> [offload-project/laravel-google-pubsub](https://github.com/offload-project/laravel-google-pubsub)
 
 A comprehensive Google Cloud Pub/Sub integration for Laravel that goes beyond basic queue functionality. This package
 provides a complete toolkit for building event-driven architectures, microservice communication, and real-time data

@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/sysmatter/laravel-google-pubsub/compare/v1.0.1...v2.0.0) (2025-12-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* deprecate package in favor of offload-project/laravel-google-pubsub ([#7](https://github.com/sysmatter/laravel-google-pubsub/issues/7))
+
+### Miscellaneous Chores
+
+* deprecate package in favor of offload-project/laravel-google-pubsub ([#7](https://github.com/sysmatter/laravel-google-pubsub/issues/7)) ([2f9c795](https://github.com/sysmatter/laravel-google-pubsub/commit/2f9c7954c1aab8d91c60381226a71ede1e7392c8))
+
 ## [1.0.1](https://github.com/sysmatter/laravel-google-pubsub/compare/v1.0.0...v1.0.1) (2025-10-10)
 
 
